@@ -26,6 +26,7 @@ h1, h2, h3 {
   background: #000;
   padding: 20px;
 }
+
 .navbar .logo {
   font-size: 1.8em;
   color: #00f7ff;
@@ -191,7 +192,7 @@ section {
   width: 200px;
   height: 230px;
   border-style: solid;
-  border-width: 5px;
+  border-width: 2px;
   border-color: #00f7ff;
 }
 .intro-img img {
@@ -365,6 +366,44 @@ footer {
     flex-direction: column;
     gap: 10px;
   }
+}
+
+.block {
+  margin-bottom: 2rem;
+}
+
+.block h1 {
+  color: #00f7ff;
+  margin-bottom: 1rem;
+}
+
+.h1-circle{
+  width: 15%;
+  height: 40px;
+  padding: 5px;
+  margin: 10px;
+  transition: transform 3s;
+}
+.h1-circle:hover {
+  color: white;
+transform: scale(1.5);
+}
+
+.p-radius{
+  width: 50%;
+  height: 250px;
+  margin: 10px;
+  padding: 15px;
+  border-style: solid;
+  border-color: #00f7ff;
+  border-radius: 25px;
+  transition: transform 2s;
+}
+
+
+.p-radius:hover {
+color: white;
+transform: scale(1.1);
 }
 
 .four-oh-four {
