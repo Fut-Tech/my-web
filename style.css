@@ -378,10 +378,6 @@ footer {
 }
 
 .h1-circle{
-  width: 15%;
-  height: 40px;
-  padding: 5px;
-  margin: 10px;
   transition: transform 3s;
 }
 .h1-circle:hover {
@@ -390,12 +386,8 @@ transform: scale(1.5);
 }
 
 .p-radius{
-  width: 50%;
-  height: 250px;
-  margin: 10px;
-  padding: 15px;
-  border-color: #00f7ff;
-  border-radius: 25px;
+  align-items: center;
+  max-width: 600px;
   transition: transform 2s;
 }
 
